@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769543709608",
+    "project_id": "nyra-wsa",
+    "storage_bucket": "nyra-wsa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769543709608:android:da4d153d4f4cbc4c84b39d",
+        "android_client_info": {
+          "package_name": "com.example.womens_safety_platform_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflv5hSAsWQGXrk-cmloSKnGJSCMjFuyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

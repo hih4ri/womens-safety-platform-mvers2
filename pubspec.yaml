@@ -1,0 +1,65 @@
+name: womens_safety_platform_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  go_router: ^16.2.4
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  geolocator: ^14.0.2
+  url_launcher: ^6.3.2
+  flutter_map: ^8.3.1
+  latlong2: ^0.9.1
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
+  
+  
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pantherheartface.png
+    - assets/images/pantherwave.png
+    - assets/images/pantherbravelook.png
+    - assets/images/pantherkneeldown.png
+    - assets/images/pantheronknees.png
+    - assets/images/nyraapplogo.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins.regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins.semibold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins.bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins.extrabold.ttf
+          weight: 800
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/nyraapplogo.png"
+  min_sdk_android: 21
